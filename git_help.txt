@@ -85,3 +85,26 @@ __________________________________________________________________________
    rm                   Remove files from the working tree and from the index
    shortlog             Summarize 'git log' output
    show                 Show various types of objects
+
+
+
+
+git branch -m oldname newname
+git branch -m tmp fichero-Ubicaciones
+(hay que substituir blancos por guiones)
+_______________________________________________________________________________________________________________________________________
+
+L:\DADES\SIT\PyQgis\Apl\qVista
+_______________________________________________________________________________________________________________________________________
+D:\Program Files\Git\mingw32\share\doc\
+git grep ".setCompleter" $(git rev-list --all)
+git grep "insecticida" $(git rev-list --all)
+git grep "insecticida" $(git rev-list --branches=*) 
+git  rev-list --branches=*  --header
+git grep ".setCompleter" $(git rev-list --all --author=JNBIMI) > d:/tmp/papa.txt
+git rev-list --all --author=JNBIMI --pretty --date=relative --since="2018-05-01" > d:/tmp/pipi.txt
+
+git grep "le1.setCompleter" $(git rev-list --all --author=JNBIMI  --date=relative --since="2018-05-01") > 
+d:/tmp/pipi.txt
+
+git  rev-list --branches=*  --header --since="2019-05-01" --date=relative --pretty
